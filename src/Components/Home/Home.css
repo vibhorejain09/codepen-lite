@@ -1,0 +1,49 @@
+#about {
+    margin-top: 3rem;
+}
+
+.about-codepenlite {
+    display: flex;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.about-codepenlite>* {
+    padding: 1rem 1rem;
+}
+
+img.about-codepenlite-cover {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+img.about-codepenlite-cover {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}

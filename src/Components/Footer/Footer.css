@@ -1,0 +1,14 @@
+.footer {
+    background-color: rgb(var(--primary-text-color));
+    display: flex;
+    flex-direction: column;
+    color: rgb(var(--primary-bg));
+    font-size: 1rem;
+}
+
+.footer-content-copyright {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
