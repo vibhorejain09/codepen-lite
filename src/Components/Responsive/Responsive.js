@@ -27,7 +27,7 @@ function Responsive() {
                         color: 'white',
                     }} />
                     <Typography id="modal-modal-description" sx={{ mt: 10 }}>
-                        Please move to a bigger screen size and develepment is meant to be done on pc/laptop so kindly use that, but we are surely working for you on that.
+                        Please move to a bigger screen size as develepment is meant to be done on pc/laptop so kindly use that, but we are surely working for you on that.
                     </Typography>
                     <Typography id="modal-modal-title" variant="h6" component="h2" sx={{
                         marginBottom: '10px'

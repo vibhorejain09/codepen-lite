@@ -33,7 +33,7 @@ function Home() {
                     <NavLink to='/editor' style={{ textDecoration: 'none' }}>
                         <div className="btn">
                             <span >
-                                Open Edior
+                                Open Editor
                             </span>
                         </div>
                     </NavLink>
