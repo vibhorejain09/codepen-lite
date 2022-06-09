@@ -27,7 +27,7 @@ function Home() {
                         <br />
                         <br />
                         One of the main feature of this is that your work is
-                        saved in the local storage so whenver you want you can you can reume from where you have left.
+                        saved in the local storage so whenver you want you can resume your work from where you have left.
 
                     </p>
                     <NavLink to='/editor' style={{ textDecoration: 'none' }}>

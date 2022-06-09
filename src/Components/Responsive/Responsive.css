@@ -3,11 +3,24 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400;
+    width: 400px;
     background-color: rgb(var(--primary-bg));
     border: 2px solid var(--primary-bg);
     border-radius: 0.7rem;
-    box-shadow: 24;
+    box-shadow: 2px 4px rgb(var(--secondary-text-color));
     padding: 4px;
     color: rgb(var(--content-text-color));
+}
+
+@media only screen and (max-width:450px)
+{
+  .error-box{
+    width: 300px;
+  }
+}
+@media only screen and (max-width:350px)
+{
+  .error-box{
+    width: 250px;
+  }
 }
